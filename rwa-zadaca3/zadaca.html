@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>   
+.prvi{
+width:100%;
+height: 12vh;
+text-align: center;
+font-size: 4vh;
+font-family: Georgia, serif;
+margin-bottom: 0.3vh;
+line-height: 2.4;
+background-image: linear-gradient(90deg,   rgb(173, 235, 189) 40%, rgb(204, 188, 219) 60%);
+}
+.text{
+ text-align: left;
+ padding-left: 6vh;
+ font-family: serif;
+}
+.prvistupac{
+    
+    max-width: 100%;
+    background-image: url(ljeto2.jpg);
+    background-size: cover;
+    background-attachment: inherit;
+    box-sizing: border-box;
+}
+.drugistupac{
+    
+    max-width: 100%;
+    background-image: url(jesen.jpg);
+    background-size: cover;
+    background-attachment: inherit;
+    box-sizing: border-box;
+}
+.trecistupac{
+    
+    max-width: 100%;
+    background-image: url(zima2.jpg);
+    background-size: cover;
+    background-attachment: inherit;
+    box-sizing: border-box;
+}
+.cetvrtistupac{
+    
+    max-width: 100%;
+    background-image: url(proljece.jpeg);
+    background-size: cover;
+    background-attachment: inherit;
+    box-sizing: border-box;
+}
+.drugi{
+width: 100%;
+height: 9.5vh;
+background-color: rgb(186, 223, 227);
+text-align: center;
+font-size: 3vh;
+font-family: Arial, Helvetica, sans-serif;
+margin-bottom: 0.3vh;
+line-height: 3.5;
+}
+.lijevo{
+ width:60%;
+height: 62vh;
+font-size: 2vh;
+font-family: Arial, Helvetica, sans-serif; 
+margin-bottom: 0.3vh;
+background-image: url(zima1.jpg);
+background-repeat: no-repeat;
+box-sizing: border-box;
+align-items: center;
+display: flex;
+background-size: cover;
+background-attachment:inherit;
+margin-right: 0.3vh;
+max-width: 100%;
+}
+
+.desni{
+width:40%;
+height: 62vh;
+background-color: rgb(190, 200, 156);
+text-align: center;
+font-size: 2vh;
+font-family: Arial, Helvetica, sans-serif; 
+margin-bottom: 0.3vh;
+background-color: antiquewhite;
+line-height: 3;
+}
+.l {
+ display: flex;
+justify-content: space-between;
+ }
+.zadnji{
+ width:100%;
+height: 9.6vh;
+background-color: rgb(210, 253, 253);
+text-align: center;
+font-size: 3vh;
+font-family: monospace;
+margin-bottom: 0.3vh;
+line-height: 3.5;
+
+}
+a:hover {
+  text-decoration: underline; 
+}
+a {
+  text-decoration: none;}
+p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 17px;
+    max-width: 100%;
+    max-height: 500px;
+    font-weight: bolder;
+    width: auto;
+}
+table {
+     width: 85%;
+     max-width:80%;
+     border-collapse: collapse;
+     margin-left: 4vh; 
+     margin-top: 3vh; 
+     font-size: 3vh;
+     margin-bottom: 3vh;
+     background-color: rgb(160, 163, 163);
+ }
+table, th, td {
+         border: 0.4vh solid black;
+ }
+th, td {
+         padding: 1px;
+        text-align: center;
+}
+    @media (min-width: 769px) {
+    h2 {
+        font-size: 2rem; 
+    }
+    h3{
+        font-size: 2rem; 
+    }
+    p {
+        font-size: 1rem;
+    }
+}
+@media (max-width: 768px) {
+    h2 {
+        font-size: 1.5rem;
+    }
+    h3{font-size: 2rem; }
+
+    p {
+        font-size: 0.9rem; 
+    }
+}
+h3{
+    padding-top: -30px;
+}
+@media (max-width: 768px) {
+    .l {
+        display: flex;
+        flex-direction: column; 
+    }
+    .lijevo,
+    .desni {
+        width: 100%; 
+        margin-top: 0.3vh; 
+
+    }}
+</style> </head>
+<body>
+<div class="prvi"> <h2>Druga zadaća iz RWA</h2></div>
+<div class="drugi">
+
+    <a href="https://eucenje.sum.ba/moodle/" > Poveznica za SUMARUM</a>
+</div>
+<div class="l">
+<div class="lijevo"><div class="text">
+   <h3>Uzrok zime</h3>
+
+<hr color="black">
+<p>Zemlja se okrene oko Sunca jednom godišnje, jer je putanja eliptična - mijenja se  udaljenost između Zemlje i Sunca, 
+     a mijenja se i količina topline koju Zemlja prima 
+ od Sunca tijekom godine. Zemlja se također okreće  oko svoje osi, koja je nagnuta
+ za 23°27' (23 stupnja i 27 minuta) u odnosu na ravninu rotacije. Zima nastupa kad
+ je određena hemisfera (sjeverna ili južna) najmanje izložena Sunčevim zrakama,
+ bez obzira na udaljenost od Sunca.  Zima na sjevernoj hemisferi nastupa kada je 
+ Zemlja najbliže Suncu, a zatim je na južnoj hemisferi vruće ljeto </p></div>
+</div>
+ <div class="desni">
+    <br>
+    <table>
+        <tr>
+            <th colspan="2">Unesite najdraže godišnje doba</th>
+        </tr>
+        <tr>
+            <td>
+                <form> <div class="prvistupac">
+                Ljeto <input type="radio"  name="cit"> &nbsp; &nbsp; </div>
+            </td>
+            <td> <div class="drugistupac">
+                Jesen<input type="radio"  name="cit"></div>
+            </td>
+        </tr>
+        <tr>
+            <td><div class="trecistupac">
+                    Zima <input type="radio" name="cit"></div>
+            </td>
+            <td> <div class="cetvrtistupac">
+                Proljeće<input type="radio"  name="cit"></div>
+            </td> 
+        </tr>
+        <tr>
+            <td>
+                <input type="submit" value="Submit" onclick="prikaziAlert()"> 
+            </form>
+                <script>
+                function prikaziAlert(){
+
+                    alert("Unijeli ste svoje podatke.");
+                }
+                </script>
+                   <form>
+            </td>
+            <td>
+                <input type="reset" value="Reset">
+            </td>
+        </tr>
+    </table>
+ </div>
+</div>
+<div class="zadnji">Tea Marušić -->
+<a href="mailto:tea.marusic@fsre.sum.ba">Email adresa autora.</a>
+</div>
+</body>
+</html>
+
+
+
