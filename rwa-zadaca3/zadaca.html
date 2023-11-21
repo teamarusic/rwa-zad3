@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,8 +11,10 @@ text-align: center;
 font-size: 4vh;
 font-family: Georgia, serif;
 margin-bottom: 0.3vh;
-line-height: 2.4;
-background-image: linear-gradient(90deg,   rgb(173, 235, 189) 40%, rgb(204, 188, 219) 60%);
+margin-top: -1vh;
+line-height: 2.3;
+background-image: linear-gradient(90deg,   rgb(227, 194, 237) 40%, rgb(219, 209, 227) 60%);
+text-shadow: 3px 2px #c58282;
 }
 .text{
  text-align: left;
@@ -20,37 +22,10 @@ background-image: linear-gradient(90deg,   rgb(173, 235, 189) 40%, rgb(204, 188,
  font-family: serif;
 }
 .prvistupac{
-    
     max-width: 100%;
-    background-image: url(ljeto2.jpg);
     background-size: cover;
     background-attachment: inherit;
-    box-sizing: border-box;
-}
-.drugistupac{
-    
-    max-width: 100%;
-    background-image: url(jesen.jpg);
-    background-size: cover;
-    background-attachment: inherit;
-    box-sizing: border-box;
-}
-.trecistupac{
-    
-    max-width: 100%;
-    background-image: url(zima2.jpg);
-    background-size: cover;
-    background-attachment: inherit;
-    box-sizing: border-box;
-}
-.cetvrtistupac{
-    
-    max-width: 100%;
-    background-image: url(proljece.jpeg);
-    background-size: cover;
-    background-attachment: inherit;
-    box-sizing: border-box;
-}
+    box-sizing: border-box;}
 .drugi{
 width: 100%;
 height: 9.5vh;
@@ -63,10 +38,9 @@ line-height: 3.5;
 }
 .lijevo{
  width:60%;
-height: 62vh;
+height: 64vh;
 font-size: 2vh;
 font-family: Arial, Helvetica, sans-serif; 
-margin-bottom: 0.3vh;
 background-image: url(zima1.jpg);
 background-repeat: no-repeat;
 box-sizing: border-box;
@@ -77,15 +51,13 @@ background-attachment:inherit;
 margin-right: 0.3vh;
 max-width: 100%;
 }
-
 .desni{
 width:40%;
-height: 62vh;
+height: 64vh;
 background-color: rgb(190, 200, 156);
 text-align: center;
 font-size: 2vh;
 font-family: Arial, Helvetica, sans-serif; 
-margin-bottom: 0.3vh;
 background-color: antiquewhite;
 line-height: 3;
 }
@@ -95,14 +67,14 @@ justify-content: space-between;
  }
 .zadnji{
  width:100%;
-height: 9.6vh;
+height: 9.5vh;
 background-color: rgb(210, 253, 253);
 text-align: center;
 font-size: 3vh;
 font-family: monospace;
-margin-bottom: 0.3vh;
+margin-bottom: 3vh;
+margin-top: -1vh;
 line-height: 3.5;
-
 }
 a:hover {
   text-decoration: underline; 
@@ -115,14 +87,14 @@ p{
     max-width: 100%;
     max-height: 500px;
     font-weight: bolder;
-    width: auto;
+    width: 100%;
 }
 table {
-     width: 85%;
-     max-width:80%;
+     width: 80%;
+     max-width: fit-content;
      border-collapse: collapse;
-     margin-left: 4vh; 
-     margin-top: 3vh; 
+     margin-left: 5vh; 
+     margin-top: 2vh; 
      font-size: 3vh;
      margin-bottom: 3vh;
      background-color: rgb(160, 163, 163);
@@ -131,32 +103,29 @@ table, th, td {
          border: 0.4vh solid black;
  }
 th, td {
-         padding: 1px;
         text-align: center;
+        padding: 1vh;
 }
     @media (min-width: 769px) {
-    h2 {
-        font-size: 2rem; 
-    }
-    h3{
+    h2,h3 {
         font-size: 2rem; 
     }
     p {
         font-size: 1rem;
-    }
-}
+    }}
 @media (max-width: 768px) {
     h2 {
-        font-size: 1.5rem;
+        font-size: 1.3rem;
     }
-    h3{font-size: 2rem; }
-
+    h3{font-size: 1rem;  }
     p {
         font-size: 0.9rem; 
     }
-}
+   .tekstutablici{
+    font-size:1rem ;
+   }}
 h3{
-    padding-top: -30px;
+    padding-bottom: 30px;
 }
 @media (max-width: 768px) {
     .l {
@@ -164,23 +133,28 @@ h3{
         flex-direction: column; 
     }
     .lijevo,
-    .desni {
+    .desni{
         width: 100%; 
         margin-top: 0.3vh; 
-
+    }
+    table {
+        width: 100%; 
+        margin-top: 0.3vh; 
+        max-width: 75%;
     }}
-</style> </head>
+</style>
+<title>Zadaca</title> </head>
 <body>
-<div class="prvi"> <h2>Druga zadaća iz RWA</h2></div>
+<div class="prvi"> <h2>Godišnja doba</h2></div>
 <div class="drugi">
 
-    <a href="https://eucenje.sum.ba/moodle/" > Poveznica za SUMARUM</a>
+    <a href="hhttps://bs.wikipedia.org/wiki/Zima" > Zima </a>
 </div>
 <div class="l">
 <div class="lijevo"><div class="text">
    <h3>Uzrok zime</h3>
 
-<hr color="black">
+<hr>
 <p>Zemlja se okrene oko Sunca jednom godišnje, jer je putanja eliptična - mijenja se  udaljenost između Zemlje i Sunca, 
      a mijenja se i količina topline koju Zemlja prima 
  od Sunca tijekom godine. Zemlja se također okreće  oko svoje osi, koja je nagnuta
@@ -191,51 +165,44 @@ h3{
 </div>
  <div class="desni">
     <br>
-    <table>
+    <table class="tekstutablici">
         <tr>
             <th colspan="2">Unesite najdraže godišnje doba</th>
         </tr>
         <tr>
-            <td>
-                <form> <div class="prvistupac">
+            <td style="background-image: url('ljeto2.jpg');background-position: 50% 50%;"> <div class="prvistupac">
                 Ljeto <input type="radio"  name="cit"> &nbsp; &nbsp; </div>
             </td>
-            <td> <div class="drugistupac">
+            <td style="background-image: url('jesen.jpg');background-position: 50% 70%;"> <div class="prvistupac">
                 Jesen<input type="radio"  name="cit"></div>
             </td>
         </tr>
         <tr>
-            <td><div class="trecistupac">
+            <td style="background-image: url('zima2.jpg');background-position: 50% 30%;"><div class="prvistupac">
                     Zima <input type="radio" name="cit"></div>
             </td>
-            <td> <div class="cetvrtistupac">
+            <td style="background-image: url('proljece.jpeg');background-position: 50% 35%;"><div class="prvistupac">
                 Proljeće<input type="radio"  name="cit"></div>
             </td> 
         </tr>
         <tr>
             <td>
                 <input type="submit" value="Submit" onclick="prikaziAlert()"> 
-            </form>
                 <script>
                 function prikaziAlert(){
-
                     alert("Unijeli ste svoje podatke.");
                 }
                 </script>
-                   <form>
             </td>
             <td>
-                <input type="reset" value="Reset">
+               ------------
             </td>
         </tr>
     </table>
  </div>
 </div>
-<div class="zadnji">Tea Marušić -->
-<a href="mailto:tea.marusic@fsre.sum.ba">Email adresa autora.</a>
+<div class="zadnji"><p>Tea Marušić -->
+<a href="mailto:tea.marusic@fsre.sum.ba">Email adresa autora.</a></p>
 </div>
 </body>
 </html>
-
-
-
